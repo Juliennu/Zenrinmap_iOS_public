@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF84E7492AAB2B2200AA7D4E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E7482AAB2B2200AA7D4E /* AppDelegate.m */; };
+		DF84E74C2AAB2B2200AA7D4E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E74B2AAB2B2200AA7D4E /* SceneDelegate.m */; };
+		DF84E74F2AAB2B2200AA7D4E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E74E2AAB2B2200AA7D4E /* ViewController.m */; };
+		DF84E7522AAB2B2200AA7D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF84E7502AAB2B2200AA7D4E /* Main.storyboard */; };
+		DF84E7552AAB2B2200AA7D4E /* zenrinmap.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF84E7532AAB2B2200AA7D4E /* zenrinmap.xcdatamodeld */; };
+		DF84E7572AAB2B2300AA7D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF84E7562AAB2B2300AA7D4E /* Assets.xcassets */; };
+		DF84E75A2AAB2B2300AA7D4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF84E7582AAB2B2300AA7D4E /* LaunchScreen.storyboard */; };
+		DF84E75D2AAB2B2300AA7D4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E75C2AAB2B2300AA7D4E /* main.m */; };
+		DF84E7672AAB2B2300AA7D4E /* zenrinmapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E7662AAB2B2300AA7D4E /* zenrinmapTests.m */; };
+		DF84E7712AAB2B2300AA7D4E /* zenrinmapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E7702AAB2B2300AA7D4E /* zenrinmapUITests.m */; };
+		DF84E7732AAB2B2300AA7D4E /* zenrinmapUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF84E7722AAB2B2300AA7D4E /* zenrinmapUITestsLaunchTests.m */; };
+		DFD2242F2AAB30FC003D2E63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD224242AAB2C8D003D2E63 /* UIKit.framework */; };
+		DFD224312AAB310A003D2E63 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD224262AAB2C95003D2E63 /* QuartzCore.framework */; };
+		DFD224332AAB310C003D2E63 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2241E2AAB2C6C003D2E63 /* MapKit.framework */; };
+		DFD224352AAB310D003D2E63 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD224222AAB2C83003D2E63 /* GLKit.framework */; };
+		DFD224372AAB310F003D2E63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2241C2AAB2C60003D2E63 /* Foundation.framework */; };
+		DFD2243F2AABF6B8003D2E63 /* ZDCMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2243B2AAB31F4003D2E63 /* ZDCMaps.framework */; };
+		DFD224402AABF6B8003D2E63 /* ZDCMaps.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DFD2243B2AAB31F4003D2E63 /* ZDCMaps.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		DFD224422AAC0290003D2E63 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD224202AAB2C75003D2E63 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF84E7632AAB2B2300AA7D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF84E73C2AAB2B2200AA7D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF84E7432AAB2B2200AA7D4E;
+			remoteInfo = zenrinmap;
+		};
+		DF84E76D2AAB2B2300AA7D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF84E73C2AAB2B2200AA7D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF84E7432AAB2B2200AA7D4E;
+			remoteInfo = zenrinmap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFD224412AABF6B8003D2E63 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				DFD224402AABF6B8003D2E63 /* ZDCMaps.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DF84E7442AAB2B2200AA7D4E /* zenrinmap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zenrinmap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF84E7472AAB2B2200AA7D4E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF84E7482AAB2B2200AA7D4E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF84E74A2AAB2B2200AA7D4E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DF84E74B2AAB2B2200AA7D4E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DF84E74D2AAB2B2200AA7D4E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF84E74E2AAB2B2200AA7D4E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF84E7512AAB2B2200AA7D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF84E7542AAB2B2200AA7D4E /* zenrinmap.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zenrinmap.xcdatamodel; sourceTree = "<group>"; };
+		DF84E7562AAB2B2300AA7D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF84E7592AAB2B2300AA7D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF84E75B2AAB2B2300AA7D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF84E75C2AAB2B2300AA7D4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF84E7622AAB2B2300AA7D4E /* zenrinmapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrinmapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF84E7662AAB2B2300AA7D4E /* zenrinmapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrinmapTests.m; sourceTree = "<group>"; };
+		DF84E76C2AAB2B2300AA7D4E /* zenrinmapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zenrinmapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF84E7702AAB2B2300AA7D4E /* zenrinmapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrinmapUITests.m; sourceTree = "<group>"; };
+		DF84E7722AAB2B2300AA7D4E /* zenrinmapUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zenrinmapUITestsLaunchTests.m; sourceTree = "<group>"; };
+		DFD2241C2AAB2C60003D2E63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DFD2241E2AAB2C6C003D2E63 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DFD224202AAB2C75003D2E63 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DFD224222AAB2C83003D2E63 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DFD224242AAB2C8D003D2E63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFD224262AAB2C95003D2E63 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DFD2243B2AAB31F4003D2E63 /* ZDCMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZDCMaps.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF84E7412AAB2B2200AA7D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD224312AAB310A003D2E63 /* QuartzCore.framework in Frameworks */,
+				DFD2243F2AABF6B8003D2E63 /* ZDCMaps.framework in Frameworks */,
+				DFD224332AAB310C003D2E63 /* MapKit.framework in Frameworks */,
+				DFD224352AAB310D003D2E63 /* GLKit.framework in Frameworks */,
+				DFD224422AAC0290003D2E63 /* CoreLocation.framework in Frameworks */,
+				DFD224372AAB310F003D2E63 /* Foundation.framework in Frameworks */,
+				DFD2242F2AAB30FC003D2E63 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E75F2AAB2B2300AA7D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E7692AAB2B2300AA7D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF84E73B2AAB2B2200AA7D4E = {
+			isa = PBXGroup;
+			children = (
+				DF84E7462AAB2B2200AA7D4E /* zenrinmap */,
+				DF84E7652AAB2B2300AA7D4E /* zenrinmapTests */,
+				DF84E76F2AAB2B2300AA7D4E /* zenrinmapUITests */,
+				DF84E7452AAB2B2200AA7D4E /* Products */,
+				DFD224172AAB2C42003D2E63 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF84E7452AAB2B2200AA7D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF84E7442AAB2B2200AA7D4E /* zenrinmap.app */,
+				DF84E7622AAB2B2300AA7D4E /* zenrinmapTests.xctest */,
+				DF84E76C2AAB2B2300AA7D4E /* zenrinmapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF84E7462AAB2B2200AA7D4E /* zenrinmap */ = {
+			isa = PBXGroup;
+			children = (
+				DF84E7472AAB2B2200AA7D4E /* AppDelegate.h */,
+				DF84E7482AAB2B2200AA7D4E /* AppDelegate.m */,
+				DF84E74A2AAB2B2200AA7D4E /* SceneDelegate.h */,
+				DF84E74B2AAB2B2200AA7D4E /* SceneDelegate.m */,
+				DF84E74D2AAB2B2200AA7D4E /* ViewController.h */,
+				DF84E74E2AAB2B2200AA7D4E /* ViewController.m */,
+				DF84E7502AAB2B2200AA7D4E /* Main.storyboard */,
+				DF84E7562AAB2B2300AA7D4E /* Assets.xcassets */,
+				DF84E7582AAB2B2300AA7D4E /* LaunchScreen.storyboard */,
+				DF84E75B2AAB2B2300AA7D4E /* Info.plist */,
+				DF84E75C2AAB2B2300AA7D4E /* main.m */,
+				DF84E7532AAB2B2200AA7D4E /* zenrinmap.xcdatamodeld */,
+			);
+			path = zenrinmap;
+			sourceTree = "<group>";
+		};
+		DF84E7652AAB2B2300AA7D4E /* zenrinmapTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF84E7662AAB2B2300AA7D4E /* zenrinmapTests.m */,
+			);
+			path = zenrinmapTests;
+			sourceTree = "<group>";
+		};
+		DF84E76F2AAB2B2300AA7D4E /* zenrinmapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF84E7702AAB2B2300AA7D4E /* zenrinmapUITests.m */,
+				DF84E7722AAB2B2300AA7D4E /* zenrinmapUITestsLaunchTests.m */,
+			);
+			path = zenrinmapUITests;
+			sourceTree = "<group>";
+		};
+		DFD224172AAB2C42003D2E63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD2243B2AAB31F4003D2E63 /* ZDCMaps.framework */,
+				DFD224262AAB2C95003D2E63 /* QuartzCore.framework */,
+				DFD224242AAB2C8D003D2E63 /* UIKit.framework */,
+				DFD224222AAB2C83003D2E63 /* GLKit.framework */,
+				DFD224202AAB2C75003D2E63 /* CoreLocation.framework */,
+				DFD2241E2AAB2C6C003D2E63 /* MapKit.framework */,
+				DFD2241C2AAB2C60003D2E63 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF84E7432AAB2B2200AA7D4E /* zenrinmap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF84E7762AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmap" */;
+			buildPhases = (
+				DF84E7402AAB2B2200AA7D4E /* Sources */,
+				DF84E7412AAB2B2200AA7D4E /* Frameworks */,
+				DF84E7422AAB2B2200AA7D4E /* Resources */,
+				DFD224412AABF6B8003D2E63 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zenrinmap;
+			productName = zenrinmap;
+			productReference = DF84E7442AAB2B2200AA7D4E /* zenrinmap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF84E7612AAB2B2300AA7D4E /* zenrinmapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF84E7792AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmapTests" */;
+			buildPhases = (
+				DF84E75E2AAB2B2300AA7D4E /* Sources */,
+				DF84E75F2AAB2B2300AA7D4E /* Frameworks */,
+				DF84E7602AAB2B2300AA7D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF84E7642AAB2B2300AA7D4E /* PBXTargetDependency */,
+			);
+			name = zenrinmapTests;
+			productName = zenrinmapTests;
+			productReference = DF84E7622AAB2B2300AA7D4E /* zenrinmapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF84E76B2AAB2B2300AA7D4E /* zenrinmapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF84E77C2AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmapUITests" */;
+			buildPhases = (
+				DF84E7682AAB2B2300AA7D4E /* Sources */,
+				DF84E7692AAB2B2300AA7D4E /* Frameworks */,
+				DF84E76A2AAB2B2300AA7D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF84E76E2AAB2B2300AA7D4E /* PBXTargetDependency */,
+			);
+			name = zenrinmapUITests;
+			productName = zenrinmapUITests;
+			productReference = DF84E76C2AAB2B2300AA7D4E /* zenrinmapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF84E73C2AAB2B2200AA7D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					DF84E7432AAB2B2200AA7D4E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					DF84E7612AAB2B2300AA7D4E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DF84E7432AAB2B2200AA7D4E;
+					};
+					DF84E76B2AAB2B2300AA7D4E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = DF84E7432AAB2B2200AA7D4E;
+					};
+				};
+			};
+			buildConfigurationList = DF84E73F2AAB2B2200AA7D4E /* Build configuration list for PBXProject "zenrinmap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF84E73B2AAB2B2200AA7D4E;
+			productRefGroup = DF84E7452AAB2B2200AA7D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF84E7432AAB2B2200AA7D4E /* zenrinmap */,
+				DF84E7612AAB2B2300AA7D4E /* zenrinmapTests */,
+				DF84E76B2AAB2B2300AA7D4E /* zenrinmapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF84E7422AAB2B2200AA7D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF84E75A2AAB2B2300AA7D4E /* LaunchScreen.storyboard in Resources */,
+				DF84E7572AAB2B2300AA7D4E /* Assets.xcassets in Resources */,
+				DF84E7522AAB2B2200AA7D4E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E7602AAB2B2300AA7D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E76A2AAB2B2300AA7D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF84E7402AAB2B2200AA7D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF84E75D2AAB2B2300AA7D4E /* main.m in Sources */,
+				DF84E74F2AAB2B2200AA7D4E /* ViewController.m in Sources */,
+				DF84E7492AAB2B2200AA7D4E /* AppDelegate.m in Sources */,
+				DF84E7552AAB2B2200AA7D4E /* zenrinmap.xcdatamodeld in Sources */,
+				DF84E74C2AAB2B2200AA7D4E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E75E2AAB2B2300AA7D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF84E7672AAB2B2300AA7D4E /* zenrinmapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF84E7682AAB2B2300AA7D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF84E7712AAB2B2300AA7D4E /* zenrinmapUITests.m in Sources */,
+				DF84E7732AAB2B2300AA7D4E /* zenrinmapUITestsLaunchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF84E7642AAB2B2300AA7D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF84E7432AAB2B2200AA7D4E /* zenrinmap */;
+			targetProxy = DF84E7632AAB2B2300AA7D4E /* PBXContainerItemProxy */;
+		};
+		DF84E76E2AAB2B2300AA7D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF84E7432AAB2B2200AA7D4E /* zenrinmap */;
+			targetProxy = DF84E76D2AAB2B2300AA7D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF84E7502AAB2B2200AA7D4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF84E7512AAB2B2200AA7D4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF84E7582AAB2B2300AA7D4E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF84E7592AAB2B2300AA7D4E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF84E7742AAB2B2300AA7D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF84E7752AAB2B2300AA7D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF84E7772AAB2B2300AA7D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K9JFKB9X4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zenrinmap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michikawa.app.sample.zenrinmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF84E7782AAB2B2300AA7D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8K9JFKB9X4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = zenrinmap/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michikawa.app.sample.zenrinmap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF84E77A2AAB2B2300AA7D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DYXXKHJGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsta-lab.app.sample.zenrinmapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenrinmap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zenrinmap";
+			};
+			name = Debug;
+		};
+		DF84E77B2AAB2B2300AA7D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DYXXKHJGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsta-lab.app.sample.zenrinmapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zenrinmap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/zenrinmap";
+			};
+			name = Release;
+		};
+		DF84E77D2AAB2B2300AA7D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DYXXKHJGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsta-lab.app.sample.zenrinmapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zenrinmap;
+			};
+			name = Debug;
+		};
+		DF84E77E2AAB2B2300AA7D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4DYXXKHJGR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monsta-lab.app.sample.zenrinmapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = zenrinmap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF84E73F2AAB2B2200AA7D4E /* Build configuration list for PBXProject "zenrinmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF84E7742AAB2B2300AA7D4E /* Debug */,
+				DF84E7752AAB2B2300AA7D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF84E7762AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF84E7772AAB2B2300AA7D4E /* Debug */,
+				DF84E7782AAB2B2300AA7D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF84E7792AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF84E77A2AAB2B2300AA7D4E /* Debug */,
+				DF84E77B2AAB2B2300AA7D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF84E77C2AAB2B2300AA7D4E /* Build configuration list for PBXNativeTarget "zenrinmapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF84E77D2AAB2B2300AA7D4E /* Debug */,
+				DF84E77E2AAB2B2300AA7D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF84E7532AAB2B2200AA7D4E /* zenrinmap.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF84E7542AAB2B2200AA7D4E /* zenrinmap.xcdatamodel */,
+			);
+			currentVersion = DF84E7542AAB2B2200AA7D4E /* zenrinmap.xcdatamodel */;
+			path = zenrinmap.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF84E73C2AAB2B2200AA7D4E /* Project object */;
+}
