@@ -35,7 +35,7 @@
     ZMSCameraPosition *camera = [ZMSCameraPosition cameraWithLatitude:35.6276017 longitude:139.7409166 bering:0.0f zoom:13];
     self.map = [ZMSMapView mapWithFrame:self.view.frame camera:camera];
     self.map.delegate = self;
-    self.map.mapType = self.map.mapTypeList[0];
+    self.map.mapType = self.map.mapTypeList[1];
     [self.view addSubview:self.map];
 }
 
